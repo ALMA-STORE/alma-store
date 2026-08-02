@@ -206,11 +206,7 @@ export const Header: React.FC = () => {
     className="group flex items-center"
     aria-label="ALMA STORE - Home"
   >
-    <img
-      src="/logo.jpg"
-      alt="ALMA STORE"
-      className="h-28 w-auto object-contain"
-    />
+    {/* TEST LOGO REMOVED */}
   </button>
 </div>
 
