@@ -1,0 +1,6 @@
+{
+  "name": "ALMA STORE",
+  "description": "An ultra-premium modern e-commerce platform & admin dashboard for ALMA STORE featuring live catalog, smart search, cart, checkout, order tracking, dark mode, and admin store controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
