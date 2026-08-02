@@ -196,25 +196,26 @@ export const Header: React.FC = () => {
 
       {/* Main Header Navigation */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between gap-4">
-        {/* Brand Logo */}
-        <div className="flex items-center gap-8 order-last">
-          <button
-            onClick={() => {
-              setCurrentView('home');
-              setSelectedCategorySlug(null);
-            }}
-            className="group flex items-center order-last"
-            aria-label="ALMA STORE - Home"
-          >
-            <img
-              src="/logo.jpg"
-              alt="ALMA STORE"
-              className="w-60 h-20 sm:w-64 sm:h-20 -translate-x-4 rounded-xl object-cover object-center border border-amber-500/40 shadow-md shadow-amber-500/10 group-hover:scale-105 transition-transform"
-            />
-          </button>
+       {/* Brand Logo */}
+<div className="flex items-center min-w-[320px]">
+  <button
+    onClick={() => {
+      setCurrentView('home');
+      setSelectedCategorySlug(null);
+    }}
+    className="group flex items-center"
+    aria-label="ALMA STORE - Home"
+  >
+    <img
+      src="/logo.jpg"
+      alt="ALMA STORE"
+      className="h-28 w-auto object-contain"
+    />
+  </button>
+</div>
 
-          {/* Desktop Categories Links */}
-          <nav className="hidden lg:flex items-center gap-6 text-sm font-medium">
+{/* Desktop Categories Links */}
+<nav className="hidden lg:flex items-center gap-8 text-sm font-medium flex-1">
             <button
               onClick={() => {
                 setCurrentView('home');
